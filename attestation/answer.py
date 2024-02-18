@@ -9,3 +9,9 @@ def filter_strings_array(input_array):
 def main():
     input_array = input("Введите строки через запятую: ").split(", ")
     filtered_array = filter_strings_array(input_array)
+    print("Исходный массив:", input_array)
+    print("Новый массив (длина <= 3):", filtered_array)
+
+
+if __name__ == "__main__":
+    main()
