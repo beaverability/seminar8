@@ -4,3 +4,8 @@ def filter_strings_array(input_array):
         if len(string) <= 3:
             output_array.append(string)
     return output_array
+
+
+def main():
+    input_array = input("Введите строки через запятую: ").split(", ")
+    filtered_array = filter_strings_array(input_array)
